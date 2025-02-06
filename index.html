@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morgage Repayment Calculator</title>
+</head>
+<body>
+    <div class="inputContainer">
+
+        <h2>Mortgage Calculator</h2>
+
+        <label for="mortgageAmount">Mortgage Amount <span>€</span></label>
+        <input type="number" id="loanAmount" required>
+
+        <label for="mortgageTerm">Mortgage Term <span>Years</span></label>
+        <input type="number" id="loanTerm" required>
+
+        <label for="interestRate">Interest Rate <span>%</span></label>
+        <input type="number" id="interestRate" required>
+        
+        <button onclick="calculateMortgage()">Calculate Repayment</button>
+    </div>
+    <div class="resultContainer">
+        <h3>Your results</h3>
+        <p> Your results are shown below based on the information you provided. To adjust the results edit the form and click 'calculate repayment' again</p>
+        <br>
+        
+        <div class="result" id="monthlyPayment"></div>
+            
+        <div class="result" id="totalPayment"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>

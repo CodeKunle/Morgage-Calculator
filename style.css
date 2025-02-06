@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(207, 233, 243);
+}
+.inputContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 50%;
+    height: 50%;
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(228, 228, 56);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover, button:focus {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+
+.resultContainer {
+    background-color: rgb(23, 23, 45);
+    color: skyblue;
+    height: 56%;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: smaller;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.resultContainer h3{
+    color: aliceblue;
+}
+
+#monthlyPayment{
+    border-top: solid 1px rgb(228, 228, 56);
+    padding-top: 20px;
+    color: yellow;
+    font-size: x-large;
+
+}
+
+#totalPayment{
+    border-top:solid  rgba(128, 128, 128, 0.123);
+    padding-top: 20px;
+    color: orange;
+
+}
+
+@media (max-width: 660px) {
+    body {
+        background-color: lightgray;
+        font-size: smaller;
+    }
+    button{
+        font-size: 10px;
+        width: 50%
+    }
+
+}
