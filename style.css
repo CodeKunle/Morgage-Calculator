@@ -71,7 +71,6 @@ button:hover, button:focus {
     border-top:solid  rgba(128, 128, 128, 0.123);
     padding-top: 20px;
     color: orange;
-
 }
 
 @media (max-width: 660px) {
